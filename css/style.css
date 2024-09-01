@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131413; /* Cor de fundo da página */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Usa 100% da altura da tela */
+    color: #000000;
+}
+
+.square-wrapper {
+    padding: 2px; /* Espaço entre o quadrado e o conteúdo interno */
+    background-color: #ffffff; /* Cor de fundo para o quadrado */
+    border-radius: 10px; /* Arredondamento das bordas do quadrado */
+}
+
+.form-section {
+    background-color: #ffffff; /* Cor de fundo branca para o formulário */
+    padding: 20px; /* Espaço interno do formulário */
+    border-radius: 10px; /* Arredondamento das bordas do formulário */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil para destaque */
+    width: 300px; /* Largura do formulário */
+    max-width: 100%; /* Garante que o formulário não exceda a largura da tela */
+    box-shadow: 0 4px 8px rgb(68, 255, 0);
+}
+
+.btn-custom {
+    background-color: #86c17f; /* Cor de fundo personalizada */
+    color: #000000; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 15px; /* Ajusta o padding do botão */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+}
+
+.btn-custom:hover {
+    background-color: #6a1b9a; /* Cor de fundo do botão ao passar o mouse */
+    color: #ffffff;
+}
+
+.result-section {
+    background-color: #86c17f; /* Cor de fundo personalizada */
+    color: #ffffff; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    padding: 20px; /* Ajusta o padding para mais espaço interno */
+    border-radius: 10px; /* Arredonda os cantos do quadrado */
+    font-size: 1.5rem; /* Aumenta o tamanho da fonte */
+    min-width: 300px; /* Largura mínima para o quadrado */
+    min-height: 150px; /* Altura mínima para o quadrado */
+    display: flex; /* Usado para centralizar o texto verticalmente */
+    flex-direction: column; /* Alinha o conteúdo verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; /* Centraliza o texto dentro do quadrado */
+    box-shadow: 0 4px 8px rgb(68, 255, 0);
+}
+
+.btn-try-again {
+    background-color: #ffffff; /* Cor de fundo branca para o botão */
+    color: #86c17f; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 15px; /* Ajusta o padding */
+    border-radius: 5px; /* Arredonda os cantos */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    margin-top: 20px; /* Espaço acima do botão */
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: inline-block; /* Faz com que o link se comporte como um botão */
+}
+
+.btn-try-again:hover {
+    background-color: #6913aaba; /* Cor de fundo ao passar o mouse */
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+}
